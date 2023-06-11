@@ -125,3 +125,27 @@ select {
 #filtro select{
     flex: 1;
 }
+.tarefas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+}
+.tarefas h3{
+    flex:1;
+    font-size: .9rem;  
+}
+.tarefas button{
+    margin-left: 0.4rem;
+}
+.done{
+    background-color:#395169 ;
+}
+.done h3{
+    color: white;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
