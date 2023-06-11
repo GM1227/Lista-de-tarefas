@@ -58,8 +58,70 @@ select {
     padding: 1.5rem;
     border-radius: 15px;
 }
-.lista-container header{
+
+.lista-container header {
     text-align: center;
     padding: 0 1rem 1rem;
     border-bottom: 1px solid #ccc;
+}
+
+/*lista fora*/
+#lista-form,
+#edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+
+}
+
+#lista-form p,
+#edit-form p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control input {
+    margin-right: 0.3rem;
+}
+
+#cancelar-edit-btn {
+    margin-top: 1rem;
+}
+
+/*Lista/Barra de ferramentas*/
+#barra-de-ferramentas {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex; 
+}
+
+#barra-de-ferramentas h4 {
+    margin-bottom: 0.5rem;
+}
+
+#pesquisa {
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+#pesquisa form{
+    display: flex;
+}
+#pesquisa input{
+    width: 100%;
+    margin-right: 0.3rem;
+}
+#filtro{
+    width: 35%;
+    display:flex;
+    flex-direction: column;
+}
+#filtro select{
+    flex: 1;
 }
