@@ -2,42 +2,64 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:Helvetica;
-    color:rgb(180, 175, 175);
+    font-family: Helvetica;
+    color: rgb(180, 175, 175);
     box-sizing: border-box;
 }
-body{
-    background-image: url("../img/imgProjetoListaDeTarefas.jpg") ;
+
+body {
+    background-image: url("../img/imgProjetoListaDeTarefas.jpg");
     background-position: center;
     background-size: cover;
 }
-button{
+
+button {
     background-color: white;
     color: black;
     border: 2px solid black;
     padding: 0.3rem 0.6rem;
     font-size: 1rem;
-    cursor:pointer;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.4s;
 }
+
 button:hover {
     background-color: black;
 }
-button:hover > i{
+
+button:hover>i {
     color: white;
 }
+
 button i {
     color: black;
-    font-weight: bold ;
+    font-weight: bold;
     pointer-events: none;
 
 }
-input, select{
+
+input,
+select {
     padding: 0.25rem 0.5rem;
 }
-.esconder{
+
+.esconder {
     display: none;
+}
+
+/*Tarefas header*/
+.lista-container {
+    max-width: 450px;
+    margin: 3rem auto 0;
+    background-color: #FDFDFD;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.lista-container header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
 }
